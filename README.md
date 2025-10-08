@@ -1,11 +1,11 @@
-##🧑‍💻 Projeto Portfólio Fictício Jhonas Perom – Desenvolvedor Web Full-Stack
+## 🧑‍💻 Projeto Portfólio Fictício Jhonas Perom – Desenvolvedor Web Full-Stack
 
 Este projeto é um portfólio fictício desenvolvido com React.js para apresentar habilidades, tecnologias, projetos e formas de contato profissional.
 
 
 ---
 
-#🚀 Tecnologias Utilizadas
+# 🚀 Tecnologias Utilizadas
 
 - O projeto foi desenvolvido com as seguintes tecnologias:
 
