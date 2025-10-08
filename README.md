@@ -36,3 +36,8 @@ Este projeto é um portfólio fictício desenvolvido com React.js para apresenta
   - Ilustração de banner
   
   - Layout de projetos
+
+---
+
+- Preview na Web:
+<img width="2168" height="6380" alt="preview_PortfolioReactJS" src="https://github.com/user-attachments/assets/f395a4b7-4abf-4a55-bbe8-06abef335287" />
