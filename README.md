@@ -40,4 +40,4 @@ Este projeto é um portfólio fictício desenvolvido com React.js para apresenta
 ---
 
 - Preview na Web:
-<img style="max-width: 50%; height: auto;" alt="preview_PortfolioReactJS" src="https://github.com/user-attachments/assets/790d8aa3-676a-4d8b-8a81-23db4251e867" />
+<img style="max-width: 50%; height: auto;" alt="preview_PortfolioReactJS" src="https://github.com/user-attachments/assets/1571baff-db7d-491a-a18a-3f397d1dcd08" />
