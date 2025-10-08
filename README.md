@@ -25,6 +25,18 @@ Este projeto é um portfólio fictício desenvolvido com React.js para apresenta
 
 ---
 
+# 📌 Funcionalidades
+
+- Navegação responsiva (Menu desktop e mobile com botão hamburguer)
+- Sessões: Home, Quem Sou, Portfólio, Contato
+- Formulário de contato com validação de campos e máscara de telefone
+- Ícones e imagens personalizadas
+- Redirecionamento para redes sociais e projetos no GitHub
+- Redirecionamento para os blocos da página desejado ao clicar (home, quem sou, portfólio, contato)
+- Redirecionamento para o topo da pagína ao clicar no botão "início"
+
+---
+
 # 📷 Imagens e Ícones
 
 - O projeto utiliza ícones SVG e PNG localizados na pasta /images, incluindo:
