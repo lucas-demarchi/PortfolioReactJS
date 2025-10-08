@@ -1,0 +1,386 @@
+/* Importando Arquivos CSS */
+@import url(./fonts.css);
+@import url(./variables.css);
+@import url(./mediaQuery.css);
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: var(--font-texto);
+    overflow-x: hidden
+}
+
+li{
+    list-style: none;
+}
+
+h3{
+    padding: 0.6rem 0rem;
+}
+
+form{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.wrap{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+}
+
+.btn-nav{
+    margin: 0rem 0.6rem 0.6rem 0rem;
+    position: fixed;
+    bottom: 3px;
+    right: 0px;
+}
+
+.btn-nav-topo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* opacity: 50%; */
+    /* box-shadow: 2px 2px 6px #000000; */
+}
+
+.btn-nav-topo:hover{
+    width: 65px;
+    height: 65px;
+    transition: .4s;
+    opacity: 100%;
+}
+
+.topo{
+    width: 100%;
+    background-color: var(--cor-bg-header);
+}
+
+.topo nav ul{
+    display: flex;
+}
+
+.topo nav ul .nav-item{
+    list-style: none;
+}
+
+.topo nav ul .nav-item a{
+    color: var(--cor-font-menu);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-header);
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+.topo nav ul .nav-item a:hover{
+    color: var(--cor-font-menu-hover);
+}
+
+.img-logotipo{
+    width: 120px;
+}
+
+.container{
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-page{
+    padding: 1rem 0.6rem 1rem 0.6rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.nome{
+    font-size: 4.2rem;
+    margin: 0px;
+}
+
+.nome:hover{
+    color: #ff3700;
+    cursor: default;
+}
+
+.funcao{
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.funcao:hover{
+    color: #ff3700;
+    cursor: default;
+}
+
+.descricao{
+    font-size: 1rem;
+    font-family: var(--font-text-banner);
+    margin: 0px;
+}
+
+.descricao:hover{
+    color: #ff3700;
+    cursor: default;
+}
+
+.github{
+    max-width: 90px;
+}
+
+.linkedin{
+    max-width: 90px;
+}
+
+.about{
+    font-size: 1.2rem;
+}
+
+.box-habil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.habil{
+    padding: 8px;
+    font-size: 0.8rem;
+    border: 2px solid #000000;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: default;
+}
+
+.habil:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+    border: none;
+}
+
+.project{
+    padding: 1.2rem 0rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.card-projects{
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.img-card{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.img-github{
+    width: 50px;
+}
+
+.rep-github{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 3px solid #ff3700;
+    color: #000000;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+
+}
+
+.rep-github:hover{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 3px solid #000000;
+    color: #000000;
+    background-color: #ff3700d7;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+    box-shadow: 2px 2px 6px #000000;
+}
+
+.contact{
+    padding-top: 1.2rem 0rem    ;
+    background-color: #ff3700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.info-contact{
+    padding-top: 0.9rem;
+}
+
+.form-contact, .info-contact{
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+
+.camp-form{
+    width: 100%;
+    height: 38px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-family: Poppins-Medium;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 6px #000000;
+}
+
+.camp-form-msg{
+    width: 100%;
+    height: 90px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-family: Poppins-Medium;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 6px #000000;
+}
+
+/* .msg-warning{
+    background-color: #ffd000;
+    color: #504f4f;
+    font-weight: bold;
+    padding: 0.2rem;
+    border-radius: 6px;
+    box-shadow: 1px 2px 9px #000000;
+} */
+
+.align-btn{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-enviar{
+    background-color: #002800;
+    color: #ffffff;
+    box-shadow: 2px 2px 6px #000000;
+    padding: 0.6rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-enviar:hover{
+    background-color: #008200;
+}
+
+.btn-resetar{
+    background-color: #ff0000;
+    color: #ffffff;
+    box-shadow: 2px 2px 6px #000000;
+    padding: 0.6rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-resetar:hover{
+    background-color: #000000;
+}
+
+.itens-contato{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.item-contato{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.box-item-contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-ct{
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 20%;
+    padding: 0.6rem;
+    box-shadow: 2px 2px 6px #000000;
+    transition: .4s;
+}
+
+.icon-ct:hover{
+    transform: scale(1.2);
+}
+
+.link-wht-contato{
+    text-decoration: none;
+    color: #ffffff;
+    transition: .8s;
+}
+
+.link-wht-contato:hover{
+    padding: 0.2rem 0.7rem;
+    border-radius: 40px;
+    background-color: #005100;
+    transform: scale(1.1);
+}
+
+.google-maps{
+    width: 100%;
+    background-color: #000000;
+}
+
+.end-page{
+    color: #ffffff;
+    text-align: center;
+    background-color: #000000;
+}
+
+.logotipo-copy{
+    width: 45px;
+    height: 45px;
+}
+
+.icon-img{
+    width: 40px;
+    height: 40px;
+    transition: .4s;
+}
+
+.icon-img:hover{
+    transform: scale(1.4);
+}
