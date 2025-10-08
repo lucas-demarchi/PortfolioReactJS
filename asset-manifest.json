@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/PortfolioReactJS/static/css/main.79a76914.css",
+    "main.js": "/PortfolioReactJS/static/js/main.81935bf1.js",
+    "static/media/Montserrat-Black.ttf": "/PortfolioReactJS/static/media/Montserrat-Black.b4b207eccc95e5e9e142.ttf",
+    "static/media/Montserrat-Medium.ttf": "/PortfolioReactJS/static/media/Montserrat-Medium.598141984583bec97122.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/PortfolioReactJS/static/media/Montserrat-SemiBold.27dfd575571f017cc9a7.ttf",
+    "static/media/Montserrat-Light.ttf": "/PortfolioReactJS/static/media/Montserrat-Light.73b7fd8d064d9bc6dcdd.ttf",
+    "static/media/Montserrat-Bold.ttf": "/PortfolioReactJS/static/media/Montserrat-Bold.68c8d686f4b0d91b92f1.ttf",
+    "static/media/Montserrat-Thin.ttf": "/PortfolioReactJS/static/media/Montserrat-Thin.b76e925de4661fab0175.ttf",
+    "static/media/Montserrat-Regular.ttf": "/PortfolioReactJS/static/media/Montserrat-Regular.7c8ccfe4b8a1b8ea2327.ttf",
+    "static/media/Poppins-Thin.ttf": "/PortfolioReactJS/static/media/Poppins-Thin.5a1918af515412dc89bd.ttf",
+    "static/media/Poppins-Light.ttf": "/PortfolioReactJS/static/media/Poppins-Light.3fda0a0ef72be930b308.ttf",
+    "static/media/Poppins-Regular.ttf": "/PortfolioReactJS/static/media/Poppins-Regular.9171031e050ecf676c11.ttf",
+    "static/media/Poppins-Medium.ttf": "/PortfolioReactJS/static/media/Poppins-Medium.2d6ae121d10e7b9c28b4.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/PortfolioReactJS/static/media/Poppins-SemiBold.e67a02ce2ffd90b0d253.ttf",
+    "static/media/Poppins-Bold.ttf": "/PortfolioReactJS/static/media/Poppins-Bold.9f0cd50bfdf6533c6cd2.ttf",
+    "static/media/Poppins-Black.ttf": "/PortfolioReactJS/static/media/Poppins-Black.27b02993e98e89595590.ttf",
+    "static/media/btnNavInicio.png": "/PortfolioReactJS/static/media/btnNavInicio.e668d117e6d7e737f0f7.png",
+    "static/media/imgBanner.jpg": "/PortfolioReactJS/static/media/imgBanner.e4d8910b920531060564.jpg",
+    "static/media/layoutSite.jpeg": "/PortfolioReactJS/static/media/layoutSite.662e288f1ca1b5ae9092.jpeg",
+    "static/media/logotipoJP.png": "/PortfolioReactJS/static/media/logotipoJP.cc2c08370c34e1e495b7.png",
+    "static/media/icons-github-250.svg": "/PortfolioReactJS/static/media/icons-github-250.6aafde907a97ac05ed917ee181ba93ae.svg",
+    "index.html": "/PortfolioReactJS/index.html",
+    "static/media/icons-linkedin-250.svg": "/PortfolioReactJS/static/media/icons-linkedin-250.301c264fdbdc95055ea06d75c6a3831a.svg",
+    "main.79a76914.css.map": "/PortfolioReactJS/static/css/main.79a76914.css.map",
+    "main.81935bf1.js.map": "/PortfolioReactJS/static/js/main.81935bf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79a76914.css",
+    "static/js/main.81935bf1.js"
+  ]
+}
